@@ -9,7 +9,7 @@ const Students1 = () => {
         {Students.map((student, id) => (
           <div
             key={id}
-            className="flex flex-row items-start p-4 shadow-md"
+            className="flex flex-row items-start p-4 shadow-md mx-0"
           >
             <img
               src={student.Profile_Image}
